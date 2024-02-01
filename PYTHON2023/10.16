@@ -1,0 +1,24 @@
+# 2 változo értékeinek csereje
+
+a=1
+b="egy"
+print(a,b)
+
+#csere
+
+c=b
+b=a
+a=c
+print(a,b)
+
+#python hack
+
+a,b=[b,a]
+print(a,b)
+
+#osszes 1es torlese
+
+lista=[1,1,1,4,4,4,1,3,6,1]
+print(lista)
+lista.remove (1)
+print("1es nélküli: ",lista)
